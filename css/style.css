@@ -1,0 +1,393 @@
+/* Color Theme Swatches in RGBA */
+.FLOAT---Axolight-1-rgba {
+  color: rgba(12, 9, 11, 1);
+}
+.FLOAT---Axolight-2-rgba {
+  color: rgba(63, 59, 63, 1);
+}
+.FLOAT---Axolight-3-rgba {
+  color: rgba(88, 83, 89, 1);
+}
+.FLOAT---Axolight-4-rgba {
+  color: rgba(242, 235, 222, 1);
+}
+.FLOAT---Axolight-5-rgba {
+  color: rgba(216, 189, 156, 1);
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 14pt;
+}
+
+p {
+  font-size: 14pt;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.align-left {
+  text-align: left;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 600px;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar-color {
+  background-color: rgba(63, 59, 63, 1);
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+#home-headshot {
+  position: relative;
+  padding-top: 30px;
+  min-height: 250px;
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+#home-headshot-text {
+  position: relative;
+  padding-bottom: 20px;
+  background: white
+  color: #fff;
+  text-align: center;
+}
+
+#home-game {
+  position: relative;
+  height: 340px;
+  background: #dedede;
+  text-align: center;
+}
+
+#home-career {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  background: #dedede;
+  text-align: left;
+}
+
+
+#home-music {
+  position: relative;
+  background: white;
+  text-align: left;
+}
+
+#home-about {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  position: relative;
+  background: white;
+  text-align: left;
+}
+
+#project-game {
+  position: relative;
+  height: 320px;
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+#home-game-text {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  background: #dedede;
+  color: black;
+  text-align: center;
+}
+
+.headshot-img {
+  width: 250px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.professional-img {
+  width: 100px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 300px;
+  background: rgba(12, 9, 11, 1);
+  color: rgb(124, 89, 89);
+  text-align: center;
+}
+
+.project-thumb {
+  width: 100%;
+  border-radius: 0;
+
+  /*max-width: 350px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  */
+}
+
+.card {
+  border-radius: 0;
+  /*max-width: 500px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
+
+.carousel-height{
+  min-height: 250px;
+}
+
+.home-proj-deck {
+  max-width: 1000px;
+}
+
+.proj-deck {
+  max-width: 600px;
+}
+
+.proj-description {
+  text-align: left;
+}
+
+.card-proj {
+  background: #dedede;
+  border-radius: 0px;
+  color: black;
+  z-index:900;
+}
+
+.project-img-padding{
+  padding: 7px;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.card-no-hover:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  cursor: default;
+}
+
+.card-video {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%
+}
+
+.card-centered{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-holder{
+  box-shadow: none;
+  cursor: default;
+  padding: 0;
+}
+
+.card-inner{
+  padding: 0px;
+  left: -15px;
+  width: 100%;
+  background-color: #dedede;
+}
+
+
+.card-holder:hover{
+  box-shadow: none;
+  cursor: default;
+  z-index: 1;
+}
+
+#home-projects {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+
+#project {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: blue;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+#page-header {
+  height: 200px;
+  background: url("../img/image1.jpg");
+  background-position: 0 -260px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+.photo-blurb {
+  display: block;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+#main-footer {
+  background: rgba(63, 59, 63, 1);
+  position: relative;
+  color: white;
+  bottom: 0px;
+  height: 110px;
+  width: 100%;
+  text-align:center;
+}
+
+.col2 {
+  float: center;
+  margin: 1%;
+  width: 31%;
+}
+	
+.projectimg-wd {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 90%;
+  max-width: 600px;
+}
+.threeinarow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 80%;
+  align: center;
+}
+.caption {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.smallimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 40%;
+}
+	
+.projectimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media only screen and (max-width: 575px) {
+  .card-inner{
+    padding: 0;
+    width: 100%;
+    left: 0px;
+    background-color: #dedede;
+  }
+}

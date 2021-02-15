@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1.0"
+	/>
+	<meta
+		http-equiv="X-UA-Compatible"
+		content="ie=edge"
+	/>
+	<link
+		rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+		integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+		crossorigin="anonymous"
+	/>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link
+		rel="stylesheet"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+		integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+		crossorigin="anonymous"
+	/>
+	<link
+		rel="stylesheet"
+		href="css/style.css"
+	/>
+
+	<!-- Change this to the title of your portfolio -->
+	<title>Portfolio Template</title>
+</head>
+
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-dark navbar-color">
+		<div class="container home-proj-deck">
+			<a
+				class="navbar-brand"
+				href="/"
+			>(Your Name Here)</a>
+			<ul class="navbar-nav ml-auto">
+				<li>
+					<div class='text-center'>
+						<!--Change these to links to your linkedin profile and your github profile-->
+						<a
+							href="https://www.linkedin.com"
+							target="_blank"
+							class="text-white px-2"
+						>
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a
+							href="https://github.com"
+							target="_blank"
+							class="text-white px-2"
+						>
+							<i class="fab fa-github"></i>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Headshot Photo and Text -->
+	<section
+		id="home-headshot"
+		class="p5"
+	>
+		<!--Change Profile.jpg to your best headshot-->
+		<!--Don't like round? Mix it up by using css.-->
+		<img
+			src="./img/Profile.jpg"
+			class="img-fluid rounded-circle headshot-img"
+		/>
+	</section>
+	<section
+		id="home-headshot-text"
+		class="p5"
+	>
+		<h1>Hello.</h1>
+		<p>Who the heck are you? <br> A snappy one or two line description of who you are. <a
+				href='https://codeportfolio.io/blog/describing-yourself'
+			>Need Inspiration?</a>
+		</p>
+	</section>
+
+	<!-- Text and iframe for showcase project -->
+	<section
+		id="home-game-text"
+		class="p5"
+	>
+		<h1>Hey, try this!</h1>
+		<p>
+			Make something cute that fits in a small iframe, like the game below.
+			<br>
+			Need ideas for projects like this? <a href="https://codeportfolio.io/blog/small-project-ideas">click
+				here!</a>
+		</p>
+		<br>
+	</section>
+	<section id="home-game">
+		<!--Get a link to your own showcase project in there!-->
+		<iframe
+			width="300"
+			height="300"
+			src="https://derickthomas.pythonanywhere.com/tool/Node_Knot.html"
+			style="border:0; margin: 0; position: absolute; top: 150px; left: 50%; transform: translate(-50%, -50%); touch-action: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 10px;"
+		>
+		</iframe>
+	</section>
+
+	<!-- Project Gallery -->
+	<section id="home-projects">
+		<div class="container home-proj-deck">
+			<h1 class="m-0">Projects</h1>
+			Showcase a few of your best code projects below. A good looking thumbnail and catchy description will go a
+			long way towards getting recruiters to want to learn more.
+			The cards link to detailed project descriptions.
+			Click <a href='https://codeportfolio.io/project-ideas'>here</a> for project ideas!
+			<br>
+			<br>
+			<div class="card-deck">
+				<div class="card card-proj">
+					<!-- Change the below link to the link to your project page -->
+					<a href='./project.html'>
+						<img
+							class="card-img-top project-thumb"
+							src="./img/Project_Thumb_1.PNG"
+							alt="Card image cap"
+						/>
+						<div class="card-body card-proj">
+							<h5 class="card-title">Project Title</h5>
+							<p class="card-text">
+								A snappy one or two sentence description of this project should go here. Say why you
+								made it,
+								what it does, how many people use it, ect.
+							</p>
+							<span><strong>List the technologies you used for this project here.</strong></span>
+						</div>
+					</a>
+				</div>
+				<!-- Change the below link to the link to your project page -->
+				<div class="card card-proj">
+					<a href='./project.html'>
+						<img
+							class="card-img-top project-thumb"
+							src="./img/Project_Thumb_2.PNG"
+							alt="Card image cap"
+						/>
+						<div class="card-body card-proj">
+							<h5 class="card-title">Project Title</h5>
+							<p class="card-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna
+								aliqua incididunt ut labore.
+							</p>
+							<span><strong>Befunge, FRACTRAN, GolfScript, Piet, Unlambda, Whitespace,
+									Shakespeare</strong></span>
+						</div>
+					</a>
+				</div>
+
+			</div>
+			<div class='card-deck mt-3'>
+				<!-- Change the below link to the link to your project page -->
+				<div class="card card-proj">
+					<a href='./project.html'>
+						<img
+							class="card-img-top project-thumb"
+							src="./img/Project_Thumb_3.PNG"
+							alt="Card image cap"
+						/>
+						<div class="card-body card-proj">
+							<h5 class="card-title">Project Title</h5>
+							<p class="card-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna
+								aliqua incididunt ut labore.
+							</p>
+							<span><strong>Befunge, FRACTRAN, GolfScript, Piet, Unlambda, Whitespace,
+									Shakespeare</strong></span>
+						</div>
+					</a>
+				</div>
+				<!-- Change the below link to the link to your project page -->
+				<div class="card card-proj">
+					<a href='./project.html'>
+						<img
+							class="card-img-top project-thumb"
+							src="./img/Project_Thumb_4.PNG"
+							alt="Card image cap"
+						/>
+						<div class="card-body card-proj">
+							<h5 class="card-title">Project Title</h5>
+							<p class="card-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna
+								aliqua incididunt ut labore.
+							</p>
+							<span><strong>Befunge, FRACTRAN, GolfScript, Piet, Unlambda, Whitespace,
+									Shakespeare</strong></span>
+						</div>
+					</a>
+				</div>
+
+			</div>
+			<div class="card-deck">
+			</div>
+	</section>
+
+	<!-- Career Section -->
+	<section id="home-career">
+		<div class="container home-proj-deck">
+			<h1 style='text-align: center'>Professional Experience</h1>
+			<p style='text-align: center'>
+				Tell the stories of a couple times you really nailed it. Use numbers in your story to show the
+				value you delivered. Click <a href='https://codeportfolio.io/blog/writing-case-studies'>here</a> for help
+				with this section.
+				<br>
+			<div
+				class="card my-4 card-no-hover"
+				style="width: 100%;"
+			>
+				<div class="card-body">
+					<h3 class="card-title">Project Title</h3>
+					<h5>Company Name</h5>
+					<img
+						src='./img/electronics.jpg'
+						style='max-height:400px; max-width: 100%'
+						class='float-right ml-3 mb-3'
+					>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</div>
+			</div>
+			<div
+				class="card my-4 card-no-hover"
+				style="width: 100%;"
+			>
+				<div class="card-body">
+					<h3 class="card-title">Project Title</h3>
+					<h5>Company Name</h5>
+					<img
+						src='./img/aircraft.jpg'
+						style='max-height:400px; max-width: 100%'
+						class='float-right ml-3 mb-3'
+					>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Quotes Carousel -->
+		<div class="container home-proj-deck pb-4">
+			<div class="p-5 bg-white card-shadow">
+				<!-- Bootstrap carousel-->
+				<div
+					class="carousel slide"
+					id="carouselExampleIndicators"
+					data-ride="carousel"
+				>
+					<!-- Bootstrap inner -->
+					<div class="carousel-inner align-middle carousel-height">
+						<!-- Carousel slide (recommendation/quote) #1 -->
+						<div class="carousel-item active">
+							<div class="media-body ml-3">
+								<blockquote class="blockquote border-0 p-0">
+									<p class="font-italic lead"> <i class="fa fa-quote-left mr-3 text-dark"></i>Get a
+										quote or two from a past colleague, mentor, or manager. Ideally, these
+										quotes
+										support the claims you made in the professional experience section above. If you
+										have linkedIn endorsements, use those here. Make sure to ask permission
+										and change the link on the linkedIn icon next to the person's name to their
+										actual
+										linkedIn profile. It's much more impactful to have proof that the quotes are
+										coming
+										from a real person.
+
+									</p>
+									<footer class="blockquote-footer">Name
+										<cite title="Source Title">Company Name</cite>
+										<a
+											href="https://www.linkedin.com"
+											target="_blank"
+											class="text-dark px-2"
+										>
+											<i class="fab fa-linkedin fa-lg"></i></a>
+									</footer>
+								</blockquote>
+							</div>
+						</div>
+
+						<!-- Carousel slide (recommendation/quote) #2 -->
+						<div class="carousel-item">
+							<div class="media-body ml-3">
+								<blockquote class="blockquote border-0 p-0">
+									<p class="font-italic lead"> <i class="fa fa-quote-left mr-3 text-dark"></i>Get a
+										quote or two from a past colleague, mentor, or manager. Ideally, these
+										quotes
+										support the claims you made in the professional experience section above. If you
+										have linkedIn endorsements, use those here. Make sure to ask permission
+										and change the link on the linkedIn icon next to the person's name to their
+										actual
+										linkedIn profile. It's much more impactful to have proof that the quotes are
+										coming
+										from a real person.
+
+									</p>
+									<footer class="blockquote-footer">Name
+										<cite title="Source Title">Company Name</cite>
+										<a
+											href="https://www.linkedin.com"
+											target="_blank"
+											class="text-dark px-2"
+										>
+											<i class="fab fa-linkedin fa-lg"></i></a>
+									</footer>
+								</blockquote>
+							</div>
+						</div>
+
+						<!-- Carousel slide (recommendation/quote) #3 -->
+						<div class="carousel-item">
+							<div class="media-body ml-3">
+								<blockquote class="blockquote border-0 p-0">
+									<p class="font-italic lead"> <i class="fa fa-quote-left mr-3 text-dark"></i>Get a
+										quote or two from a past colleague, mentor, or manager. Ideally, these
+										quotes
+										support the claims you made in the professional experience section above. If you
+										have linkedIn endorsements, use those here. Make sure to ask permission
+										and change the link on the linkedIn icon next to the person's name to their
+										actual
+										linkedIn profile. It's much more impactful to have proof that the quotes are
+										coming
+										from a real person.
+
+									</p>
+									<footer class="blockquote-footer">Name
+										<cite title="Source Title">Company Name</cite>
+										<a
+											href="https://www.linkedin.com"
+											target="_blank"
+											class="text-dark px-2"
+										>
+											<i class="fab fa-linkedin fa-lg"></i></a>
+									</footer>
+								</blockquote>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- Bootstrap controls [dots]-->
+					<a
+						class="carousel-control-prev"
+						style="width: 50px; left: -50px;"
+						href="#carouselExampleIndicators"
+						role="button"
+						data-slide="prev"
+					>
+						<i class="fa fa-angle-left text-dark text-lg"></i>
+					</a>
+					<a
+						class="carousel-control-next width-auto"
+						style="width: 50px; right: -50px;"
+						href="#carouselExampleIndicators"
+						role="button"
+						data-slide="next"
+					>
+						<i class="fa fa-angle-right text-dark text-lg"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- About Me/Interests Section -->
+	<div id="home-about">
+		<div class="container home-proj-deck">
+			<h1 style='text-align: center'>About Me</h1>
+			<div
+				class="card card-no-hover"
+				style="width: 100%; margin-top: 20px; margin-bottom: 40px"
+			>
+				<div class="card-body">
+					<img
+						src='./img/Running.jpeg'
+						style='height:400px'
+						class='float-left p-3'
+					>
+					<h3>Interests</h3>
+					Use this section to share your non-coding interests!
+					This stuff can be
+					<a href='https://codeportfolio.io/blog/interests-get-the-gig'>surprisingly helpful</a>
+					in getting the interview.
+					<br>
+					<br>
+					<i class='fas fa-coffee fa-lg text-dark'></i> Interest 1
+					<br><br>
+					<i class='fas fa-plane fa-lg text-dark'></i> Interest 2
+					<br><br>
+					<i class='fa fa-volume-up fa-lg text-dark'></i> Interest 3
+					<br><br>
+					<i class='fas fa-dog fa-anchor text-dark'></i> Interest 4
+					<br><br>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Footer-->
+	<footer
+		id="main-footer"
+		class="text-center"
+	>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class='text-center'>
+						<br>
+						<!--Change the links below to go to your accounts.-->
+						<a
+							href="https://www.linkedin.com"
+							target='_blank'
+							class="text-white px-2"
+						>
+							<i class="fab fa-linkedin"></i></a>
+						<a
+							href="https://github.com"
+							target='_blank'
+							class="text-white px-2"
+						>
+							<i class="fab fa-github"></i></a>
+						<a
+							href="https://www.instagram.com"
+							target='_blank'
+							class="text-white px-2"
+						>
+							<i class="fab fa-instagram"></i></a>
+					</div>
+					<p> &copy; 2021 </span>(Your Name Here)</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+		integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+		crossorigin="anonymous"
+	></script>
+
+</body>
+
+</html>
